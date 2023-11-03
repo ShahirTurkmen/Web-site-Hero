@@ -1,0 +1,65 @@
+/*
+  Challenge:
+   * Increase the size of the image
+*/
+
+/* Reset default margins and paddings */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the logo image */
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add soft shadow */
+}
+
+/* Set the background color and center the content */
+.hero {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 60px;
+}
+
+/* Style the main heading */
+.hero-heading {
+  font-size: 48px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Style the subheading */
+.hero-subheading {
+  font-size: 24px;
+  color: #84412f;
+  margin-bottom: 30px;
+}
+
+/* Style the description paragraph */
+.hero-description {
+  font-size: 18px;
+  color: #777777;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #555555;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #333333;
+}
